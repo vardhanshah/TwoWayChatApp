@@ -4,4 +4,4 @@ This is two way chat application built in Java. There are two files Client.java 
 First - Compile and run Server.java
 Second - compile and run Client.java
 
-You can send messages, also simaltaneously receive messages.That's why it implemented as multi-threaded program.
+You can send messages, also simaltaneously receive messages.That's why they were implemented as multi-threaded programs.
