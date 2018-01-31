@@ -62,7 +62,8 @@ public class Client{
 
     public static void main(String args[]) throws Exception
     {
-        Socket socket =new Socket("192.168.31.59",3001);
+        String ipAddress = "192.168.31.59" // edit this ip address as of your local Server to whom you want to make connection
+        Socket socket =new Socket(ipAddress,3001);
         System.out.println("Starting the connection...");
 
         new ReceiveAndConsole(socket);
