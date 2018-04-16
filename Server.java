@@ -47,7 +47,7 @@ class ReceiveAndConsole extends Thread{
                 if(receivedMessage == null||receivedMessage.equals("null"))
                     break;
                 System.out.println();
-                System.out.println("Your Opposite Side: " + receivedMessage);
+                System.out.println("--------------" + receivedMessage);
             }
             catch(Exception e)
             {
